@@ -1,0 +1,268 @@
+
+
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(dashboard_trener.jpg);
+    
+    background-position: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    
+    
+}
+
+.block1{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:1080px;
+    height: auto;
+    
+    border: 10px solid silver;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+.container{
+    height: auto;
+    width: 1020px;
+    position: relative;
+    margin: 20px;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px #a200ff solid;
+    
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:silver;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+.trener{
+    
+    position: relative;
+    left: 900px;
+    bottom:110px;
+    font-size: 15px;
+   
+    
+    
+    
+}
+.cen_dash{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.baner{
+    height: 100px;
+    width: 1080px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto; 
+    margin-right: auto;
+    
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px #a200ff solid;
+}
+.logout{
+   width: 15%;
+    padding: 15px;
+    background:rgb(129, 129, 129);
+    outline: none;
+    border-radius: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.baner img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+h3{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.adduser1{
+    border-radius: 10px;
+    border: 3px #a200ff solid;
+    font-size: 15px;
+	background: silver;
+    width: 98%;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.deletuser1{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px #a200ff solid;
+    width: 98%;
+    font-size: 15px;
+	background: silver;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.addworkout1{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px #a200ff solid;
+    width: 98%;
+    font-size: 15px;
+	background: silver;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.deletworkout1{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px #a200ff solid;
+    width: 98%;
+    font-size: 15px;
+	background: silver;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.podgladwpis1{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px #a200ff solid;
+    width: 98%;
+    font-size: 15px;
+	background: silver;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.poka{
+   display:none;  
+}
+.poka1{
+    display:none; 
+ }
+ .poka2{
+    display:none; 
+ }
+ .poka3{
+    display:none; 
+ }
+ .poka4{
+    display:none; 
+ }
+ .adduser2{
+     margin-left: 30px;
+     font-size: 15px;
+     
+ }
+ input[type=text] {
+    border: 2px solid silver;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  input[type=email] {
+    border: 2px solid silver;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  input[type=submit]{
+    border: 4px solid silver;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .deletuser2{
+    margin-left: 30px;
+    font-size: 15px;
+}
+table {
+    width: 95%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+  }
+th, td  {
+    border-bottom: 1px solid #ddd;
+   
+    
+    
+  }
+  tr:hover {background-color: rgb(204, 0, 255);}
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .addworkout2{
+      margin-left: 30px;
+    font-size: 15px;
+  }
+  .addworkout2 p{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 25px;
+      font-family: cursive;
+  }
+  .deletworkout2{
+    margin-left: 30px;
+    font-size: 15px;
+  }
+  .deletworkout2 p{
+  margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 25px;
+      font-family: cursive;
+}
+  .podgladwpis2{
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .podgladwpis2 h1{
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .podgladwpis2 h7{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.podgladwpis2 h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
